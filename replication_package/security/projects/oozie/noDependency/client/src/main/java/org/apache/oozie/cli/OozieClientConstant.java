@@ -1,0 +1,98 @@
+package org.apache.oozie.cli;
+
+public final class OozieClientConstant {
+	
+	private OozieClientConstant (){
+        // Prevent instantiation
+    }
+	public static final String ENV_OOZIE_URL = "OOZIE_URL";
+	public static final String ENV_OOZIE_DEBUG = "OOZIE_DEBUG";
+	public static final String ENV_OOZIE_TIME_ZONE = "OOZIE_TIMEZONE";
+	public static final String ENV_OOZIE_AUTH = "OOZIE_AUTH";
+	public static final String MR_CMD = "mapreduce";
+	public static final String INFO_CMD = "info";
+	public static final String OOZIE_RETRY_COUNT = "oozie.connection.retry.count";
+	public static final String WS_HEADER_PREFIX = "header:";
+	public static final String HELP_CMD = "help";
+	public static final String VERSION_CMD = "version";
+	public static final String JOB_CMD = "job";
+	public static final String JOBS_CMD = "jobs";
+	public static final String ADMIN_CMD = "admin";
+	public static final String VALIDATE_CMD = "validate";
+	public static final String SLA_CMD = "sla";
+	public static final String PIG_CMD = "pig";
+	public static final String HIVE_CMD = "hive";
+	public static final String SQOOP_CMD = "sqoop";
+	public static final String OOZIE_OPTION = "oozie";
+	public static final String CONFIG_OPTION = "config";
+	public static final String SUBMIT_OPTION = "submit";
+	public static final String OFFSET_OPTION = "offset";
+	public static final String START_OPTION = "start";
+	public static final String RUN_OPTION = "run";
+	public static final String DRYRUN_OPTION = "dryrun";
+	public static final String SUSPEND_OPTION = "suspend";
+	public static final String RESUME_OPTION = "resume";
+	public static final String KILL_OPTION = "kill";
+	public static final String CHANGE_OPTION = "change";
+	public static final String CHANGE_VALUE_OPTION = "value";
+	public static final String RERUN_OPTION = "rerun";
+	public static final String INFO_OPTION = "info";
+	public static final String LOG_OPTION = "log";
+	public static final String ERROR_LOG_OPTION = "errorlog";
+	public static final String AUDIT_LOG_OPTION = "auditlog";
+	public static final String VALIDATE_JAR_OPTION = "validatejar";
+	public static final String SUBMIT_JAR_OPTION = "submitjar";
+	public static final String RUN_JAR_OPTION = "runjar";
+	public static final String INSECURE_ACCESS_OPTION = "insecure";
+	public static final String ACTION_OPTION = "action";
+	public static final String DEFINITION_OPTION = "definition";
+	public static final String CONFIG_CONTENT_OPTION = "configcontent";
+	public static final String SQOOP_COMMAND_OPTION = "command";
+	public static final String SHOWDIFF_OPTION = "diff";
+	public static final String UPDATE_OPTION = "update";
+	public static final String IGNORE_OPTION = "ignore";
+	public static final String POLL_OPTION = "poll";
+	public static final String TIMEOUT_OPTION = "timeout";
+	public static final String INTERVAL_OPTION = "interval";
+	public static final String DO_AS_OPTION = "doas";
+	public static final String LEN_OPTION = "len";
+	public static final String FILTER_OPTION = "filter";
+	public static final String JOBTYPE_OPTION = "jobtype";
+	public static final String SYSTEM_MODE_OPTION = "systemmode";
+	public static final String VERSION_OPTION = "version";
+	public static final String STATUS_OPTION = "status";
+	public static final String LOCAL_TIME_OPTION = "localtime";
+	public static final String TIME_ZONE_OPTION = "timezone";
+	public static final String QUEUE_DUMP_OPTION = "queuedump";
+	public static final String DATE_OPTION = "date";
+	public static final String RERUN_REFRESH_OPTION = "refresh";
+	public static final String RERUN_NOCLEANUP_OPTION = "nocleanup";
+	public static final String RERUN_FAILED_OPTION = "failed";
+	public static final String ORDER_OPTION = "order";
+	public static final String COORD_OPTION = "coordinator";
+	public static final String UPDATE_SHARELIB_OPTION = "sharelibupdate";
+	public static final String LIST_SHARELIB_LIB_OPTION = "shareliblist";
+	public static final String PURGE_OPTION = "purge";
+	public static final String SLA_DISABLE_ALERT = "sladisable";
+	public static final String SLA_ENABLE_ALERT = "slaenable";
+	public static final String SLA_CHANGE = "slachange";
+	public static final String SERVER_CONFIGURATION_OPTION = "configuration";
+	public static final String SERVER_OS_ENV_OPTION = "osenv";
+	public static final String SERVER_JAVA_SYSTEM_PROPERTIES_OPTION = "javasysprops";
+	public static final String METRICS_OPTION = "metrics";
+	public static final String INSTRUMENTATION_OPTION = "instrumentation";
+	public static final String AUTH_OPTION = "auth";
+	public static final String USERNAME = "username";
+	public static final String PASSWORD = "password";
+	public static final String VERBOSE_OPTION = "verbose";
+	public static final String VERBOSE_DELIMITER = "\t";
+	public static final String DEBUG_OPTION = "debug";
+	public static final String SCRIPTFILE_OPTION = "file";
+	public static final String INFO_TIME_ZONES_OPTION = "timezones";
+	public static final String BULK_OPTION = "bulk";
+	public static final String AVAILABLE_SERVERS_OPTION = "servers";
+	public static final String ALL_WORKFLOWS_FOR_COORD_ACTION = "allruns";
+	public static final String WORKFLOW_ACTIONS_RETRIES = "retries";
+	public static final String COORD_ACTION_MISSING_DEPENDENCIES = "missingdeps";
+
+}

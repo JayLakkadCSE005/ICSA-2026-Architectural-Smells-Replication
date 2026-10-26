@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Java build artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Maven
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/settings.json
+*.eclipse
+.classpath
+.project
+.settings/
+
+# JProfiler snapshots (large binary files — raw data; keep only CSVs)
+*.jps
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Node (if any)
+node_modules/
+
+# Python virtual envs
+venv/
+.env/
+.venv/
+
+# Build outputs (keep results Excel files)
+*.tmp

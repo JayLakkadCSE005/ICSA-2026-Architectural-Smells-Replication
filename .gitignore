@@ -51,3 +51,7 @@ venv/
 
 # Build outputs (keep results Excel files)
 *.tmp
+
+# Office lock files
+~$*
+

@@ -55,3 +55,6 @@ venv/
 # Office lock files
 ~$*
 
+# Planning & Submission directories (local only, excluded from GitHub)
+.planning/
+submission/
